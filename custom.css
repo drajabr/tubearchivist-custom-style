@@ -158,7 +158,8 @@ button:hover {
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
 }
 form {
-    position: relative; /* Set the position of the form to relative */
+	min-width:200px;
+	margin-right:10px;
 }
 
 form > button {
