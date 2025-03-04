@@ -230,7 +230,7 @@ div.main-content > div:nth-child(2) > div.title-bar > div{
 .view-controls{
 	background-color: var(--highlight-bg);
 	border-radius: 10px;
-	padding: 1px 0px
+	padding: 1px 5px
 }
 .video-list{
 	border-radius: 10px;
@@ -238,7 +238,9 @@ div.main-content > div:nth-child(2) > div.title-bar > div{
 	border-radius: 10px;
 	padding: 10px 0px
 }
-
+#video-item{
+	border-radius:1em;
+}
 .footer {
 	padding: 0px;
 	border-radius: 10px;
@@ -647,14 +649,6 @@ div.video-thumb > img {
 	border: solid 3px;
 	min-width:350px;
 }
-.player-wrapper {
-	background-color: var(--highlight-bg);
-	width: var(--custom-global-width);
-	margin: auto;
-	border-radius: 15px;
-	border: solid 3px;
-	min-width:350px;
-}
 .video-player {
 	display: grid;
 	align-content: space-evenly;
@@ -671,8 +665,13 @@ div.video-thumb > img {
 	display: none
 }
 #video-item {
-	margin: 1% 1% 1% 1%;
-	width: 98%
+	justify-self: center;
+	width: 100%;
+	max-width: none;
+	max-height: none;
+	object-fit: contain; /* Adjust if necessary */
+	border-radius:1em;
+	margin-bottom:1em;
 }
 #player > div > div.player-title.boxed-content{
 	width: 96%;
