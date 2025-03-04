@@ -9,8 +9,8 @@
 	--accent-font-light: #fff;
 	--accent-box-dark: #2e7d4f;
 	--accent-box-light: #1650304d;
-	--accent-button-dark: #2e7d4f;
-	--accent-button-light: #3aa76b;
+	--accent-button-dark: #3aa76b;
+	--accent-button-light: #2e7d4f;
 	--img-filter: invert(80%) sepia(30%) saturate(3000%) hue-rotate(90deg) brightness(90%) contrast(100%);
 	--img-filter-hover: invert(40%) sepia(80%) saturate(3000%) hue-rotate(340deg) brightness(90%) contrast(120%);
 	--img-filter-error: invert(40%) sepia(80%) saturate(3000%) hue-rotate(340deg) brightness(90%) contrast(120%);
@@ -38,6 +38,7 @@ input[type="text"], input[type="password"], textarea {
     width: var(--custom-global-width);
 }
 .login-page{
+	justify-self:center;
 	border-radius: 15px;
 	color: var(--accent-font-light);
 	background-color: var(--highlight-bg-transparent);
@@ -71,6 +72,7 @@ input[type="text"], input[type="password"], textarea {
 }
 
 .footer-colors {
+	justify-self:center;
 	background-color: var(--highlight-bg);
 	border-radius: 15px;
 	color: var(--accent-font-light);

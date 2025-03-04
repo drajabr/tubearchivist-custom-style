@@ -38,6 +38,7 @@ input[type="text"], input[type="password"], textarea {
     width: var(--custom-global-width);
 }
 .login-page{
+	justify-self:center;
 	border-radius: 15px;
 	color: var(--accent-font-light);
 	background-color: var(--highlight-bg-transparent);
@@ -71,6 +72,7 @@ input[type="text"], input[type="password"], textarea {
 }
 
 .footer-colors {
+	justify-self:center;
 	background-color: var(--highlight-bg);
 	border-radius: 15px;
 	color: var(--accent-font-light);
