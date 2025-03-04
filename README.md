@@ -12,7 +12,9 @@ For more details: refer to [https://docs.tubearchivist.com/configuration/stylesh
 ## Preview
 
 
-https://github.com/user-attachments/assets/1123b9f5-6c19-47e1-a098-41912a6b0228
+https://github.com/user-attachments/assets/454acbc8-c4ea-48e2-bf1e-82efb7cd287e
+
+
 
 
 
