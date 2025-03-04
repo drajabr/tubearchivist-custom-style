@@ -16,12 +16,13 @@
 	--img-filter-error: invert(20%) sepia(60%) saturate(3000%) hue-rotate(350deg) brightness(90%) contrast(110%);
 	--banner: url("../img/logo-tube-archivist-light.png");
 	--logo: url("../img/logo-tube-archivist-light.png");
-	--custom-global-width:96%;
-	--custom-max-width:1200px;
+	--custom-global-width: 96%;
+	--custom-max-width: 1200px;
 }
 * {
+	align-content:center;
+	align-items:center;
 	transition: all 0.3s ease-in-out
-
 }
 body {
     caret-color: transparent;
@@ -121,9 +122,9 @@ select, .settings-item input {
 	background-color: var(--accent-box-light)
 }
 select{
-	width:calc(95% + 10px);
-	min-width:210px;
-	max-width:410px;
+	width:calc(30% + 10px);
+	min-width:100px;
+	max-width:500px;
 }
 button {
 	float:right;
@@ -159,6 +160,7 @@ button:hover {
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
 }
 form {
+	width:100%;
 	min-width:200px;
 	margin-right:10px;
 }
@@ -166,17 +168,19 @@ form {
 form > button {
 	width:100%;
 	margin:auto;
+	padding:10px;
 	margin-bottom:3em;
 
 }
 form > button:hover {
 	width:100%;
+	width:auto;
 	margin:auto;
+	padding:10px;
 	margin-bottom:3em;
 }
 .settings-group>*>button{
-	width:33%;
-	min-width:150px;
+	width:-webkit-fill-available;
 }
 .danger-button{
 	position:relative;
@@ -185,7 +189,7 @@ form > button:hover {
 	max-width:80px;
 }
 .settings-group {
-margin-bottom:40px
+margin-bottom:1em
 }
 .top-banner {
 	background-image: var(--banner);

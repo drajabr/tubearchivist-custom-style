@@ -1,27 +1,28 @@
 :root {
 	--main-bg: #121212;
-	--highlight-bg: #1e1e1e;
-	--highlight-error: #e63946;
-	--highlight-error-light: #ff6b6b;
-	--highlight-bg-transparent: #1e1e1eaf;
-	--main-font: #e0e0e0;
+	--highlight-bg: #1a1a1a;
+	--highlight-error: #ff3333;
+	--highlight-error-light: #ff6666;
+	--highlight-bg-transparent: #1a1a1acc;
+	--main-font: #d0d0d0;
 	--accent-font-dark: #000;
 	--accent-font-light: #fff;
-	--accent-box-dark: #2a7d4f;
-	--accent-box-light: #38b6734d;
-	--accent-button-dark: #2a7d4f;
-	--accent-button-light: #38b648;
-	--img-filter: invert(60%) sepia(10%) saturate(3000%) hue-rotate(100deg) brightness(90%) contrast(95%);
-	--img-filter-hover: invert(20%) sepia(60%) saturate(3000%) hue-rotate(350deg) brightness(90%) contrast(110%);
-	--img-filter-error: invert(20%) sepia(60%) saturate(3000%) hue-rotate(350deg) brightness(90%) contrast(110%);
+	--accent-box-dark: #2e7d4f;
+	--accent-box-light: #1650304d;
+	--accent-button-dark: #2e7d4f;
+	--accent-button-light: #3aa76b;
+	--img-filter: invert(80%) sepia(30%) saturate(3000%) hue-rotate(90deg) brightness(90%) contrast(100%);
+	--img-filter-hover: invert(40%) sepia(80%) saturate(3000%) hue-rotate(340deg) brightness(90%) contrast(120%);
+	--img-filter-error: invert(40%) sepia(80%) saturate(3000%) hue-rotate(340deg) brightness(90%) contrast(120%);
 	--banner: url("../img/logo-tube-archivist-dark.png");
 	--logo: url("../img/logo-tube-archivist-dark.png");
-	--custom-global-width:96%;
-	--custom-max-width:1200px;
+	--custom-global-width: 96%;
+	--custom-max-width: 1200px;
 }
 * {
+	align-content:center;
+	align-items:center;
 	transition: all 0.3s ease-in-out
-
 }
 body {
     caret-color: transparent;
@@ -121,9 +122,9 @@ select, .settings-item input {
 	background-color: var(--accent-box-light)
 }
 select{
-	width:calc(95% + 10px);
-	min-width:210px;
-	max-width:410px;
+	width:calc(30% + 10px);
+	min-width:100px;
+	max-width:500px;
 }
 button {
 	float:right;
@@ -159,6 +160,7 @@ button:hover {
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
 }
 form {
+	width:100%;
 	min-width:200px;
 	margin-right:10px;
 }
@@ -166,17 +168,19 @@ form {
 form > button {
 	width:100%;
 	margin:auto;
+	padding:10px;
 	margin-bottom:3em;
 
 }
 form > button:hover {
 	width:100%;
+	width:auto;
 	margin:auto;
+	padding:10px;
 	margin-bottom:3em;
 }
 .settings-group>*>button{
-	width:33%;
-	min-width:150px;
+	width:-webkit-fill-available;
 }
 .danger-button{
 	position:relative;
@@ -185,7 +189,7 @@ form > button:hover {
 	max-width:80px;
 }
 .settings-group {
-margin-bottom:40px
+	margin-bottom:1em
 }
 .top-banner {
 	background-image: var(--banner);
