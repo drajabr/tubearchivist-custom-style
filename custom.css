@@ -292,8 +292,7 @@ h2 {
     margin: 10px 15px;
 	font-size: 1.4em;
 	border-radius: 10px;
-	color: var(--accent-button-dark);
-
+	color: var(--accent-font-dark);
 }
 .nav-item:hover{
 	color: var(--accent-button-light);
