@@ -7,10 +7,10 @@
 	--main-font: #d0d0d0;
 	--accent-font-dark: #000;
 	--accent-font-light: #fff;
-	--accent-box-dark: #1c3527f5;
-	--accent-box-light: #1650304d;
-	--accent-button-dark: #2e7d4f;
-	--accent-button-light: #3aa76b;
+	--accent-box-dark: #080c0a;
+	--accent-box-light: #142e20;
+	--accent-button-dark: #218249;
+	--accent-button-light: #16a657;
 	--img-filter: invert(80%) sepia(30%) saturate(3000%) hue-rotate(90deg) brightness(90%) contrast(100%);
 	--img-filter-hover: invert(40%) sepia(80%) saturate(3000%) hue-rotate(340deg) brightness(90%) contrast(120%);
 	--img-filter-error: invert(40%) sepia(80%) saturate(3000%) hue-rotate(340deg) brightness(90%) contrast(120%);
