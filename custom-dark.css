@@ -1,22 +1,22 @@
 :root {
 	--main-bg: #121212;
 	--highlight-bg: #1e1e1e;
-	--highlight-error: #cf6679;
-	--highlight-error-light: #ff8a80;
+	--highlight-error: #e63946;
+	--highlight-error-light: #ff6b6b;
 	--highlight-bg-transparent: #1e1e1eaf;
 	--main-font: #e0e0e0;
 	--accent-font-dark: #000;
 	--accent-font-light: #fff;
-	--accent-box-dark: #2e7d32;
-	--accent-box-light: #388e3c;
-	--accent-button-dark: #2e7d32;
-	--accent-button-light: #43a047;
-	--img-filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
-	--img-filter-hover: invert(50%) sepia(100%) saturate(1000%) hue-rotate(90deg) brightness(100%) contrast(100%);
-	--img-filter-error: invert(50%) sepia(100%) saturate(1000%) hue-rotate(180deg) brightness(100%) contrast(100%);
+	--accent-box-dark: #2a7d4f;
+	--accent-box-light: #38b6734d;
+	--accent-button-dark: #2a7d4f;
+	--accent-button-light: #38b648;
+	--img-filter: invert(60%) sepia(10%) saturate(3000%) hue-rotate(100deg) brightness(90%) contrast(95%);
+	--img-filter-hover: invert(20%) sepia(60%) saturate(3000%) hue-rotate(350deg) brightness(90%) contrast(110%);
+	--img-filter-error: invert(20%) sepia(60%) saturate(3000%) hue-rotate(350deg) brightness(90%) contrast(110%);
 	--banner: url("../img/logo-tube-archivist-dark.png");
 	--logo: url("../img/logo-tube-archivist-dark.png");
-	--custom-global-width: 96%;
+	--custom-global-width:96%;
 	--custom-max-width:1200px;
 }
 * {
