@@ -20,8 +20,10 @@
 	--custom-max-width: 96%;
 }
 * {
-	align-content:center;
 	transition: all 0.3s ease-in-out
+}
+*:empty {
+    display: none;
 }
 body {
     caret-color: transparent;
