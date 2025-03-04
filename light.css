@@ -22,7 +22,7 @@
 * {
 	transition: all 0.3s ease-in-out
 }
-*:empty {
+.player-wrapper:empty {
     display: none;
 }
 body {
