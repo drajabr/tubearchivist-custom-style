@@ -17,7 +17,7 @@
 	--banner: url("../img/logo-tube-archivist-light.png");
 	--logo: url("../img/logo-tube-archivist-light.png");
 	--custom-global-width: 96%;
-	--custom-max-width: 1200px;
+	--custom-max-width: 96%;
 }
 * {
 	align-content:center;
