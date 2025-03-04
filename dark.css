@@ -630,12 +630,12 @@ div.video-thumb > img {
 }
 
 
-.video-thumb-wrap.grid:hover *:not(.video-play){
-	filter: brightness(0.85)
+.video-thumb-wrap.grid:hover {
+	filter: brightness(0.75)
 }
 
-.video-thumb-wrap.list:hover *:not(.video-play){
-	filter: brightness(0.85)
+.video-thumb-wrap.list:hover {
+	filter: brightness(0.75)
 }
 
 .video-progress-bar {
