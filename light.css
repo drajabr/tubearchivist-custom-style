@@ -651,9 +651,11 @@ div.video-thumb > img {
 	background-color: var(--highlight-bg);
 	width: var(--custom-global-width);
 	margin: auto;
-	border-radius: 15px;
+	border-radius: 1.2em;
 	border: solid 3px;
 	min-width:350px;
+	border-width:.2em;
+	border-color:var(--accent-button-light)
 }
 .video-player {
 	display: grid;
@@ -661,6 +663,14 @@ div.video-thumb > img {
 	height: auto;
 	position: relative;
 	padding:0;
+}
+
+.player-title.boxed-content img{
+	max-width: 1em;
+	max-height: 1em
+}
+#.player-title.boxed-content .close-button{
+	display: none
 }
 #video-item {
 	justify-self: center;

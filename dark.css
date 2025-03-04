@@ -651,9 +651,11 @@ div.video-thumb > img {
 	background-color: var(--highlight-bg);
 	width: var(--custom-global-width);
 	margin: auto;
-	border-radius: 15px;
+	border-radius: 1.2em;
 	border: solid 3px;
 	min-width:350px;
+	border-width:.2em;
+	border-color:var(--accent-button-light)
 }
 .video-player {
 	display: grid;
