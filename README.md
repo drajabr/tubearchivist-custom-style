@@ -1,15 +1,23 @@
 # tubearchivist-custom-style
-Custom css style for tube archivist, light theme with greenish accent, a little bit more modern than the stock theme.
+Custom css style for tube archivist, dark and light theme with greenish accent.
 
 ***DISCLAIMER**: I'm by not by any mean a proffisional web-developer, I just couldn't find a pleasening theme for tubearchivist than the stock ones, so had to create this one.*
 
-So here it is, custom.css theme you can throw in your tubearchivist installation and modify it as you like.
-
 ## Installation
-Refer to [https://docs.tubearchivist.com/configuration/stylesheets/]
+Clone the repo and mount it to /app/static/css
+This will replace the stock light/dark theme.
 
-**Note:** Login screen doesn't load custom.css om login screen, it defaults to dark.css, so I found it easier to replace dark.css directly via the docker bind mount
+For more details: refer to [https://docs.tubearchivist.com/configuration/stylesheets/]
 
 ## Preview
-*Preview may show some miscoloring and other artifacts due to gif encoder..*
-![tubearchivist-custom-style-short](https://github.com/drajabr/tubearchivist-custom-style/assets/70832668/0a68046c-bf34-4f9b-920c-2423ff71019f)
+
+
+https://github.com/user-attachments/assets/1123b9f5-6c19-47e1-a098-41912a6b0228
+
+
+
+> [!WARNING]
+>  This part is just for my lazy ass to pull ther repo and clean after copying css files inside css folder.
+> 
+> `git clone https://github.com/drajabr/tubearchivist-custom-style && mv ./tubearchivist-custom-
+style/*.css ./ && rm -r tubearchivist-custom-style/`
