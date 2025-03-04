@@ -17,6 +17,7 @@
 	--banner: url("../img/logo-tube-archivist-dark.png");
 	--logo: url("../img/logo-tube-archivist-dark.png");
 	--custom-global-width: 96%;
+	--custom-max-width:1200px;
 }
 * {
 	transition: all 0.3s ease-in-out
@@ -727,18 +728,18 @@ margin:5px auto;
 
 .boxed-content {
 	min-width: 350px;
-    max-width: 2000px;
+    max-width: var(--custom-max-width);
     width: var(--custom-global-width);
 }
 
 .boxed-content.boxed-4 {
 	min-width: 350px;
-    max-width: 2000px;
+    max-width: var(--custom-max-width);
     width: var(--custom-global-width);
 }
 .video-player video, .video-main video {
 	min-width: 250px;
-    max-width: 2000px;
+    max-width: var(--custom-max-width);
     display: block;
 }
 
