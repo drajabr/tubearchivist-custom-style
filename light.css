@@ -176,8 +176,15 @@ form > button {
 	display:grid;
 }
 .settings-group>*>button{
-	width:30%;
 	justify-self:left;
+	width: 100%;
+	max-width: 800px;
+}
+
+@media (min-width: 800px) {
+	.settings-group>*>button {
+		width: 20%;
+	}
 }
 
 .danger-button{
