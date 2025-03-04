@@ -179,9 +179,21 @@ form > button:hover {
 	padding:10px;
 	margin-bottom:3em;
 }
-.settings-group>*>button{
-	width:-webkit-fill-available;
+
+.settings-group > p {
+	width:100%;
+	display:grid;
 }
+
+.settings-group>div{
+	width:100%;
+	display:grid;
+}
+.settings-group>*>button{
+	width:30%;
+	justify-self:left;
+}
+
 .danger-button{
 	position:relative;
 	margin-top:-4em;
@@ -209,7 +221,7 @@ div.main-content > div:nth-child(2) > div.title-bar > div{
 }
 .title-bar{
 	min-height:60px;
-	width:100%;
+	width:-webkit-fill-available;
 	display: flex;
 	justify-content:left;
 	margin-top:1em;
