@@ -1,0 +1,315 @@
+:root {
+        --main-bg: #000f01;
+        --highlight-bg: #031b00;
+        --highlight-error: #990202;
+        --highlight-error-light: #c44343;
+        --highlight-bg-transparent: #073b00af;
+        --main-font: #eeeeee;
+        --accent-font-dark: #004116;
+        --accent-font-light: #00c242;
+        --accent-button-dark: #004b19;
+        --accent-button-light: #008c2f;
+        --img-filter: invert(50%) sepia(9%) saturate(2940%) hue-rotate(122deg) brightness(94%)
+        contrast(90%);
+        --img-filter-error: invert(16%) sepia(60%) saturate(3717%) hue-rotate(349deg) brightness(86%)
+        contrast(120%);
+        --banner: url('/img/banner-tube-archivist-light.png');
+        --logo: url('/img/logo-tube-archivist-light.png');
+        --custom-global-width: 98%;
+        --custom-max-width: 98%;
+}
+
+
+
+
+.login-page > * {
+    width: var(--custom-global-width);
+}
+.login-page{
+        justify-self:center;
+        border-radius: 15px;
+        color: var(--accent-font-light);
+        background-color: var(--highlight-bg);
+        margin: 10px;
+}
+.login-page img {
+        display: none;
+        margin:10px;
+        min-height:100px;
+        min-width:100px;
+        max-height:150px;
+        max-width:150px;
+        background-color: var(--highlight-bg-transparent);
+        border-radius: 100%;
+}
+
+.login-page form {
+        border-radius: 15px;
+        width:fit-content;
+        padding: 1em;
+        background-color: var(--highlight-bg-transparent);
+}
+
+.login-page input {
+        margin-top: 2vh;
+        border-radius: 5px;
+        color: var(--accent-font-light);
+        background-color: var(--highlight-bg);
+}
+form > p {
+        color: var(--accent-font-light)
+}
+button {
+        float:right;
+        box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+        border-radius: 5px;
+        padding: 5px 5px;
+        margin: 5px 5px;
+        width: 25%;
+        cursor: pointer;
+        border: solid 1px;
+        min-width: 100px;
+        background-color: var(--accent-button-dark);
+        border-color: var(--accent-font-light);
+        color: var(--accent-font-light)
+}
+form > button {
+        display: block;
+        float: inherit;
+        margin: 0 auto
+}
+button:hover {
+        background-color: var(--accent-button-light);
+        border-color: var(--accent-font-light);
+        color: var(--accent-font-dark);
+        transform: scale(1.0);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
+}
+
+
+.login-links a {
+        padding:5px;
+}
+
+.footer-colors {
+        justify-self:center;
+        background-color: var(--highlight-bg);
+        border-radius: 15px;
+        color: var(--accent-font-light);
+        background-color: var(--highlight-bg);
+        margin: 10px;
+        margin-top:0;
+        border-radius: 15px;
+    width: var(--custom-global-width);
+        padding-top: 10px;
+        padding-bottom: 10px;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: flex;
+}
+
+.footer-colors div {
+        border-radius:10px;
+        padding: 10px;
+        margin:auto;
+    width: calc(var(--custom-global-width) / 3 - 32px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+#root > div.boxed-content.login-page > p.danger-zone {
+        position: fixed;
+        border-radius: 0.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Hide the footer */
+.footer {
+  display: none
+}
+/* Hide the top banner */
+.top-banner {
+  display: none
+}
+
+.top-nav{
+  padding: 0;
+}
+.nav-icons {
+  width: auto;
+  height: auto;
+  z-index: 1000;
+  display: inline-flex !important;
+  margin-left: auto;
+}
+
+/* search + settings: hide img, show emojis */
+.nav-icons a img {
+  display: none !important;
+}
+
+
+/* Style nav-icons like nav-items */
+.nav-icons a {
+  width: fit-content;
+  height: fit-content;
+  padding: 5px;
+  margin: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+  border: 2px solid;
+  border-radius: 10px;
+  color: var(--accent-font-light);
+  text-decoration: none;
+  
+}
+
+/* Style nav-icons like nav-items */
+.nav-icons img  {
+  padding: 5px;
+  margin: 2px;
+  display: flex;
+  font-size: 12px;
+  border: 2px solid;
+  border-radius: 10px;
+}
+/* Search */
+.nav-icons a:nth-of-type(1)::before {
+  content: "🔍";
+  font-size: 20px;
+  margin-bottom: 2px;
+}
+.nav-icons a:nth-of-type(1)::after {
+  content: "Search";
+}
+
+/* Settings */
+.nav-icons a:nth-of-type(2)::before {
+  content: "⚙️";
+  font-size: 20px;
+  margin-bottom: 2px;
+}
+.nav-icons a:nth-of-type(2)::after {
+  content: "Settings";
+}
+
+
+
+
+
+.nav-items {
+  width: auto;
+  height: auto;
+  z-index: 1000;
+  display: inline-flex !important;
+}
+
+.nav-item {
+  width: fit-content;
+  height: fit-content;
+  padding:5px;
+  margin:2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+  font-size: 12px;
+  border: 2px solid;
+  border-radius: 10px;
+  color: var(--accent-font-light);
+  /* Remove text-indent */
+}
+
+.nav-item::before {
+  font-size: 20px;
+  margin-bottom: 2px;
+  text-indent: 0;
+  display: block;
+}
+
+.nav-item::after {
+  display: none; /* Hide the text completely */
+}
+
+/* Keep the icons */
+a[href="/"] .nav-item::before {
+  content: "🏠";
+}
+a[href="/channel/"] .nav-item::before {
+  content: "📺";
+}
+a[href="/playlist/"] .nav-item::before {
+  content: "🎵";
+}
+a[href="/downloads/"] .nav-item::before {
+  content: "⬇️";
+}
+
+
+
+
+
+
+
+
+.info-box-item {
+  border: 2px solid;
+  border-radius: 10px;
+  color: var(--accent-font-light);
+  /* Remove text-indent */
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Width/Max width var*/
+.boxed-content, .boxed-content.boxed-4 {
+  width:  var(--width-content);
+  max-width: var(--max-width-content);
+  padding: 5px;
+}
+
+
+* {
+        transition: all 0.25s ease-in-out
+}
+
+
